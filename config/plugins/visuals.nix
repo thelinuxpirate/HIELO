@@ -1,26 +1,9 @@
 # Visual Plugins
 {
   plugins = {
-    dashboard = {
+    alpha = {
       enable = true;
-      settings = {
-        config = {
-          footer = [ "The Declarative Editor" ];
-          header = [
-            ""
-            "███╗   ██╗██╗██╗  ██╗██╗   ██╗██╗███╗   ███╗"
-            "████╗  ██║██║╚██╗██╔╝██║   ██║██║████╗ ████║"
-            "██╔██╗ ██║██║ ╚███╔╝ ██║   ██║██║██╔████╔██║"
-            "██║╚██╗██║██║ ██╔██╗ ╚██╗ ██╔╝██║██║╚██╔╝██║"
-            "██║ ╚████║██║██╔╝ ██╗ ╚████╔╝ ██║██║ ╚═╝ ██║"
-            "╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝╚═╝     ╚═╝"
-            ""
-          ];
-          week_header.enable = true;
-        };
-      change_to_vcs_root = true;
-      theme = "doom";
-      };
+      theme = "dashboard";
     };
 
     lualine = {

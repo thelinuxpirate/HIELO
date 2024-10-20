@@ -1,6 +1,10 @@
 # Util Plugins
 {
   plugins = {
+    arrow.enable = true;
+    auto-session.enable = true;
+    chadtree.enable = true;
+
     nvim-autopairs.enable = true;
 
     telescope = {
@@ -36,6 +40,7 @@
     lazygit.enable = true;
     markdown-preview.enable = true;
     neorg.enable = true;
+    otter.enable = true;
     nix.enable = true;
     nix-develop.enable = true;
 
