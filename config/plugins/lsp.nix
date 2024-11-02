@@ -1,4 +1,6 @@
 {
+  extraConfigLua = builtins.readFile ./../lua/plugins.lua;
+
   plugins = {
     cmp = {
       enable = true;
@@ -95,17 +97,6 @@
 
             diagnostics.styleLints.enable = true;
             rustfmt.rangeFormatting.enable = true;
-          };
-        };
-
-        nil_ls = {
-          enable = true;
-          settings.nix = {
-            flake = {
-              autoEvalInputs = false;
-              nixpkgsInputName = "nixpkgs";
-            };
-            formatting.command = ["alejandra"];
           };
         };
       };

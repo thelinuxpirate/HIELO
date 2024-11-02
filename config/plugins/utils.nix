@@ -1,7 +1,10 @@
 # Util Plugins
 {
   plugins = {
-    arrow.enable = true;
+    arrow = {
+      enable = true;
+      settings.leader_key = "'";
+    };
     auto-session.enable = true;
     chadtree.enable = true;
 

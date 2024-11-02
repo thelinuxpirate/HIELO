@@ -306,5 +306,14 @@
         desc = "Toggle Scrollbar";
       };
     }
+    {
+      mode = [ "n" ];
+      key = "<localleader>tt";
+      action = "<cmd>CHADopen<cr>";
+      options = {
+        noremap = true;
+        desc = "Toggle CHADtree";
+      };
+    }
   ];
 }
